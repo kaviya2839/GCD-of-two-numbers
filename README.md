@@ -22,19 +22,20 @@ RegisterNumber:  22002839
 def gcd():
     n1,n2=int(input()),int(input())
     if n1<n2:
-        smalller=n1
+        smaller=n1
     else:
         smaller=n2
-    for i in range (1,smaller+1):
-        if((n1%i==0)and(n2%i==0)):
-            gcd1=i
-    print("GCD of two numbers is:",gcd1)
+    for i in range(1,smaller+1):
+        if n1%i==0 and n2%i==0:
+            gcd=i
+    print("GCD of two numbers is:",gcd)
+
 */
 ```
 
 ## Output:
-![gcd of two number](/gcd%20output.png)
 
+![Screenshot_20230121_073257](https://user-images.githubusercontent.com/120553351/213871564-e53af94e-e72e-4588-a792-5bee559713a6.png)
 
 ## Result:
 Thus the program to find the GCD of two numbers is written and verified using python programming.
